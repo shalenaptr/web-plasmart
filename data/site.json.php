@@ -1,7 +1,7 @@
 <?php http_response_code(403); exit; ?>
 {
     "brand": "CV PLASMART",
-    "powered_by": "PUTRI MARSHALENA",
+    "powered_by": "",
     "currency": "IDR",
     "logo": "images/logo-plasmart.webp",
     "colors": {
@@ -14,9 +14,9 @@
     "contact": {
         "whatsapp": "6285810497915",
         "whatsapp_label": "085810497915",
-        "email": "",
-        "address": "",
-        "hours": ""
+        "email": "shalenaptr@gmail.com",
+        "address": "Perum Tirtasani Royal Resort PR 2 Jl. Raya Tirtasani No.1,Ngenep, Kec. Karangploso,Kabupaten Malang,Jawa Timur 65152",
+        "hours": "09.00 -16.00"
     },
     "social": {
         "instagram": "",
