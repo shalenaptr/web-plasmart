@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "browser": "Chrome Headless Shell 151 / Playwright",
+  "passed": 15,
+  "checks": [
+    "Homepage sections preserved against prior release; footer logo ratio remains correct",
+    "About copy and exact client Google link",
+    "Single admin WhatsApp field normalizes number and updates displayed contacts and links",
+    "Admin rejects 6 images, uploads 5 JPEG/PNG images as real WebP, and saves quantity pricing",
+    "5-photo slider: arrows, dots, keyboard, real touch swipe, wrapping and zoom",
+    "9/10/11 unit thresholds, quantity decrease, merged cart line, reload and mixed-product totals; legacy sale price ignored",
+    "Checkout and WhatsApp include the same wholesale unit price, subtotal, total and updated recipient (no message sent)",
+    "Flash-only crossed prices; cheapest eligible flash/wholesale price; no stacked discount; disabling flash removes all catalog strikes",
+    "Wholesale rules persist per variant; mixed variants do not pool minimum quantities; variant stock cap works",
+    "Reordering/removing photos persists; catalog and detail share the selected main photo",
+    "About copy/Google URL/button label remain editable and persist in real PHP data",
+    "36 public and 12 admin responsive route checks, 320–1440 px",
+    "Search, sort, mobile menu, direct PHP routes and subfolder installation regression",
+    "Product delete and logout revoke access",
+    "No JavaScript errors or broken local image responses"
+  ]
+}

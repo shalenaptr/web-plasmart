@@ -1,0 +1,2 @@
+# Native PHP URLs are used. No rewrite/Options directives are required.
+# Private JSON/config/session files contain independent PHP access guards.

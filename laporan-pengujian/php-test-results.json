@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "php": "8.3.6",
+  "passed": 11,
+  "price_cases": 21,
+  "checks": [
+    "PHP public render, protected files, anonymous access, invalid/valid login and CSRF",
+    "Single WhatsApp number normalization, automatic contact label, server render and invalid number rejection",
+    "Legacy page data gains editable Google fields without replacing existing page text",
+    "About body/new Google fields persist; unsafe URL rejected",
+    "Real JPEG multipart converted/compressed to WebP by PHP GD; dimensions bounded",
+    "5-photo server limit, product rule persistence, invalid quantity/price/rule rejection with no partial save",
+    "PHP 1/9/10/11 quantity arithmetic, legacy sale_price ignored/preserved and updated normal price used",
+    "Per-variant wholesale thresholds, stocks and lower-unit-price validation",
+    "Lowest eligible flash/grosir price, no stacking, flash-only old price, disabled/future/expired/sold-out states",
+    "Gallery main/remove, slug alias, negative stock, category CRUD/protection and product delete regression",
+    "Password change and logout regression"
+  ]
+}

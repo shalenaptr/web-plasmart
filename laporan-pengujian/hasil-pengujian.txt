@@ -1,0 +1,18 @@
+HASIL PENGUJIAN REVISI CV PLASMART
+
+PHP 8.3.6: 11 kelompok uji integrasi HTTP/API lulus, termasuk 21 kasus harga dengan hasil aritmetika yang ditetapkan.
+Playwright + Chrome Headless Shell 151: 15 kelompok uji browser lulus.
+Responsif: 36 kombinasi halaman publik dan 12 kombinasi panel admin pada lebar 320–1440 px.
+Lint: 32 file PHP dan kedua file JavaScript lulus.
+Tidak ditemukan error JavaScript atau permintaan gambar lokal yang gagal.
+Batas 5 foto diuji di browser dan server; foto keenam ditolak. JPEG/PNG benar-benar menjadi WebP.
+Slider diuji dengan panah, titik, keyboard, touch swipe, pembungkusan foto terakhir ke foto pertama, dan zoom.
+Harga jumlah 9, 10, dan 11; perubahan jumlah; varian; total keranjang; checkout; serta isi WhatsApp diuji.
+Harga flash vs grosir, tanpa penumpukan diskon, serta kondisi nonaktif/belum mulai/berakhir/stok habis diuji.
+Beranda dibandingkan dengan rilis sebelumnya: ukuran dan susunan bagian tetap sama.
+Produk, kategori, kontak asli, flash sale, foto asli, dan hash akun admin pada paket produksi tidak diubah.
+Semua perubahan data pengujian dijalankan pada salinan terpisah. Tidak ada pesan WhatsApp sungguhan yang dikirim.
+
+Rincian terdapat pada dua file JSON pendamping.
+
+Kompatibilitas data versi lama: kolom Google disediakan pada halaman/admin dan dapat disimpan tanpa mengganti teks lama. Diuji juga pada browser dan pemasangan subfolder.
